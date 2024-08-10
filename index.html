@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body class="dark">
+
+    <!-- header design -->
+    <header class="header">
+        <!-- <a href="#home" class="logo">JoselitoDev</a> -->
+        <!-- <a href="#home" class="logo">
+            <img src="assets/images/logo.png" alt="imagen de logo" width="50">
+        </a> -->
+
+        <i class='bx bx-menu' id="menu__icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" data-section="nav" data-value="nav-home" class="active">Inicio</a>
+            <a href="#about" data-section="nav" data-value="nav-about">Sobre mí</a>
+            <a href="#services" data-section="nav" data-value="nav-services">Servicios</a>
+            <a href="#skills" data-section="nav" data-value="nav-skills">Habilidades</a>
+            <a href="#projects" data-section="nav" data-value="nav-project">Proyectos</a>
+            <a href="#contact" data-section="nav" data-value="nav-contact">Contacto</a>
+        </nav>
+
+        <!--banderas para idioma-->
+        <div id="flags" class="flags" id="buttons">
+            <div class="flags__item" data-language="es">
+                <img src="assets/images/icons/es.svg" alt="espanol">
+            </div>
+            <div class="flags__item" data-language="en">
+                <img src="assets/images/icons/gb.svg" alt="ingles">
+            </div>
+        </div>
+
+        <!-- Dark Mode / ligth Mode -->
+        <div class="switches">
+            <div id="toggle-theme" class="toggle-theme">
+                <img id="toggle-icon" src="assets/images/icons/moon.svg" alt="icon theme" class="toggle-theme__icon" />
+                <p id="toggle-text" class="toggle-theme__text">Dark mode</p>
+            </div>
+        </div>
+
+    </header>
+
+    <!-- home section design-->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3 data-section="home" data-value="home-hit">Hola, Soy</h3>
+            <h1>Ivan Aponza</h1>
+            <h3 data-section="home" data-value="home-rol">soy <span class="multiple__text"></span></h3>
+            <p data-section="home" data-value="home-description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Non saepe sapiente similique a accusantium
+                voluptatibus autem aliquam
+            </p>
+            <div class="social-media">
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+                <a href="#"><i class='bx bxl-github'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+                <a href="#"><i class='bx bxl-linkedin'></i></a>
+            </div>
+            <a href="#" class="btn" data-section="home" data-value="home-btn">Descargar CV</a>
+        </div>
+
+        <div class="home-img">
+            <img src="assets/images/projects.png" alt="imagen de perfil">
+        </div>
+    </section>
+
+    <!-- about section -->
+    <section class="about" id="about">
+        <div class="about__img">
+            <img src="assets/images/about.png" alt="">
+        </div>
+
+        <article class="about__content">
+            <h2 class="heading" data-section="about" data-value="heading">Sobre <span>Mí</span></h2>
+            <h3 data-section="about" data-value="about-title">
+                Desarrollador web Backend
+            </h3>
+            <p data-section="about" data-value="about-description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas qui ratione, maxime saepe in aliquam harum
+                ab blanditiis aperiam neque voluptatum tenetur. Beatae autem a, explicabo reprehenderit blanditiis
+                aliquam molestiae ipsam deserunt incidunt numquam totam magnam cumque repellendus temporibus facere!
+            </p>
+            <a href="#" class="btn" data-section="about" data-value="btn">
+                Leer más
+            </a>
+        </article>
+    </section>
+
+    <!-- services section design -->
+    <section class="services" id="services">
+        <h2 class="heading" data-section="services" data-value="heading">Mis <span>Servicios</span></h2>
+
+        <article class="service__content">
+            <div class="services__box">
+                <i class='bx bx-code-alt'></i>
+                <h3 data-section="services" data-value="firt-service-title">
+                    Desarrollador web Backend
+                </h3>
+                <p data-section="services" data-value="firt-service-description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta provident, numquam asperiores
+                    praesentium dolor reiciendis laborum distinctio consequuntur blanditiis aliquid.</p>
+                <a href="#" class="btn" data-section="services" data-value="firt-btn">
+                    Leer más
+                </a>
+            </div>
+
+            <div class="services__box">
+                <i class='bx bx-code-alt'></i>
+                <h3 data-section="services" data-value="second-service-title">
+                    Tutorias TI
+                </h3>
+                <p data-section="services" data-value="second-service-description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta provident, numquam asperiores
+                    praesentium dolor reiciendis laborum distinctio consequuntur blanditiis aliquid.</p>
+                <a href="#" class="btn" data-section="services" data-value="second-btn">
+                    Leer más
+                </a>
+            </div>
+
+            <div class="services__box">
+                <i class='bx bx-code-alt'></i>
+                <h3 data-section="services" data-value="third-service-title">
+                    Auditorias
+                </h3>
+                <p data-section="services" data-value="third-service-description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta provident, numquam asperiores
+                    praesentium dolor reiciendis laborum distinctio consequuntur blanditiis aliquid.</p>
+                <a href="#" class="btn" data-section="services" data-value="third-btn">
+                    Leer más
+                </a>
+            </div>
+
+        </article>
+    </section>
+
+    <!-- sekills section design -->
+    <section class="skills" id="skills">
+        <h2 class="heading" data-section="skills" data-value="heading">Mis <span>Habilidades</span></h2>
+
+        <article class="skill__content">
+            <div class="skill__box html">
+                <img src="assets/images/skill/html.png" alt="html icon">
+                <p>Html5</p>
+                <div class="skills__bar skills__bar--90"></div>
+            </div>
+            <div class="skill__box">
+                <img src="assets/images/skill/css3.png" alt="css icon">
+                <p>CSS</p>
+                <div class="skills__bar skills__bar--70"></div>
+            </div>
+            <div class="skill__box">
+                <img src="assets/images/skill/javascript.png" alt="javascript icon">
+                <p>JavaScript</p>
+                <div class="skills__bar skills__bar--60"></div>
+            </div>
+            <!-- <div class="skill__box">
+                <img src="assets/images/skill/react.png" alt="react icon">
+                <p>React JS</p>
+                <div class="skills__bar skills__bar--50"></div>
+            </div> -->
+            <!-- <div class="skill__box">
+                <img src="assets/images/skill/nextjs.jpg" alt="Nextjs icon">
+                <p>Next JS</p>
+                <div class="skills__bar skills__bar--20"></div>
+            </div> -->
+            <div class="skill__box">
+                <img src="assets/images/skill/git.png" alt="Git icon">
+                <p>GIT</p>
+                <div class="skills__bar skills__bar--70"></div>
+            </div>
+            <div class="skill__box">
+                <img src="assets/images/skill/github.png" alt="Github icon">
+                <p>GITHUB</p>
+                <div class="skills__bar skills__bar--70"></div>
+            </div>
+            <div class="skill__box">
+                <img src="assets/images/skill/bootstrap.png" alt="bootstrap icon">
+                <p>Bootstrap</p>
+                <div class="skills__bar skills__bar--70"></div>
+            </div>
+            <div class="skill__box">
+                <img src="assets/images/skill/tailwind.jpg" alt="tailwind icon">
+                <p>Tailwind</p>
+                <div class="skills__bar skills__bar--30"></div>
+            </div>
+            <div class="skill__box">
+                <img src="assets/images/skill/nodejs.png" alt="nodejs icon">
+                <p>Node JS</p>
+                <div class="skills__bar skills__bar--50"></div>
+            </div>
+            <div class="skill__box">
+                <img src="assets/images/skill/express.jpg" alt="express icon">
+                <p>Express JS</p>
+                <div class="skills__bar skills__bar--50"></div>
+            </div>
+            <!-- <div class="skill__box">
+                <img src="assets/images/skill/php.png" alt="php icon">
+                <p>PHP</p>
+                <div class="skills__bar skills__bar--70"></div>
+            </div> -->
+            <div class="skill__box">
+                <img src="assets/images/skill/Mysql.png" alt="mysql icon">
+                <p>MySql</p>
+                <div class="skills__bar skills__bar--70"></div>
+            </div>
+            <div class="skill__box">
+                <img src="assets/images/skill/mongodb.png" alt="tailwind icon">
+                <p>MongoDB</p>
+                <div class="skills__bar skills__bar--30"></div>
+            </div>
+            <div class="skill__box">
+                <img src="assets/images/skill/postgres.png" alt="postgres icon">
+                <p>Postgres</p>
+                <div class="skills__bar skills__bar--30"></div>
+            </div>
+            <div class="skill__box">
+                <img src="assets/images/skill/docker.png" alt="docker icon">
+                <p>Docker</p>
+                <div class="skills__bar skills__bar--30"></div>
+            </div>
+        </article>
+    </section>
+
+    <!-- services section design -->
+    <section class="experience" id="experience">
+        <h2 class="heading" data-section="experience" data-value="heading">Mis <span>Experiencias</span></h2>
+        <article class="experience__content">
+            <div class="experience__box">
+                <i class='bx bx-code-alt'></i>
+                <h3 data-section="experience" data-value="firt-experience-title">Desarrollador web Backend</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta provident, numquam asperiores
+                    praesentium dolor reiciendis laborum distinctio consequuntur blanditiis aliquid.</p>
+                <a href="#" class="btn" data-section="services" data-value="firt-btn">Leer más</a>
+            </div>
+
+            <div class="experience__box">
+                <i class='bx bx-palette'></i>
+                <h3 data-section="experience" data-value="second-experience-title">Diseño Grafico</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta provident, numquam asperiores
+                    praesentium dolor reiciendis laborum distinctio consequuntur blanditiis aliquid.</p>
+                <a href="#" class="btn" data-section="services" data-value="second-btn">Leer más</a>
+            </div>
+
+            <div class="experience__box">
+                <i class='bx bx-bar-chart-alt'></i>
+                <h3 data-section="experience" data-value="third-experience-title">Digital Marketing</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta provident, numquam asperiores
+                    praesentium dolor reiciendis laborum distinctio consequuntur blanditiis aliquid.</p>
+                <a href="#" class="btn" data-section="experience" data-value="third-btn">Read More</a>
+            </div>
+        </article>
+    </section>
+
+    <!-- projects section design -->
+    <section class="projects" id="projects">
+        <h2 class="heading" data-section="project" data-value="heading">Mis <span>Proyectos</span></h2>
+
+        <article class="projects__content">
+            <div class="projects__box">
+                <img src="assets/project/projects1.png" alt="">
+                <div class="projects__layer">
+                    <h4 data-section="project" data-value="first-projects-title">Sistema POS</h4>
+                    <p data-section="project" data-value="first-projects-description">Sistema de venta e Inventario,
+                        para organización y sistematización de tu negocios
+                    </p>
+                    <div class="projects__tech">
+                        <img src="assets/images/skill/php.png" alt="">
+                        <img src="assets/images/skill/javascript.png" alt="">
+                        <img src="assets/images/skill/bootstrap.png" alt="">
+                    </div>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+
+                </div>
+            </div>
+            <div class="projects__box">
+                <img src="assets/project/projects2.png" alt="">
+                <div class="projects__layer">
+                    <h4 data-section="project" data-value="second-projects-title">Bienes raices</h4>
+                    <p data-section="project" data-value="second-projects-description">Lorem ipsum dolor sit amet
+                        consectetur adipisicing elit. Libero, aliquam!</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="projects__box">
+                <img src="assets/project/projects3.jpg" alt="">
+                <div class="projects__layer">
+                    <h4 data-section="project" data-value="third-projects-title">Acordator URL</h4>
+                    <p data-section="project" data-value="third-projects-description">Lorem ipsum dolor sit amet
+                        consectetur adipisicing elit. Libero, aliquam!</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="projects__box">
+                <img src="assets/project/projects4.png" alt="">
+                <div class="projects__layer">
+                    <h4 data-section="project" data-value="room-projects-title">Aplicación de colas</h4>
+                    <p data-section="project" data-value="room-projects-description">Lorem ipsum dolor sit amet
+                        consectetur adipisicing elit. Libero, aliquam!</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="projects__box">
+                <img src="assets/project/projects5.png" alt="">
+                <div class="projects__layer">
+                    <h4 data-section="project" data-value="fifth-projects-title">Meeting</h4>
+                    <p data-section="project" data-value="fifth-projects-description">Lorem ipsum dolor sit amet
+                        consectetur adipisicing elit. Libero, aliquam!</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="projects__box">
+                <img src="assets/project/projects6.jpg" alt="">
+                <div class="projects__layer">
+                    <h4 data-section="project" data-value="sixth-projects-title">Review</h4>
+                    <p data-section="project" data-value="sixth-projects-description">Lorem ipsum dolor sit amet
+                        consectetur adipisicing elit. Libero, aliquam!</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </article>
+    </section>
+
+    <!-- Contact section design -->
+    <section class="contact" id="contact">
+        <h2 class="heading" data-section="contact" data-value="heading">Contacta <span>Me!</span></h2>
+
+        <form action="#">
+            <div class="input__box">
+                <input type="text" placeholder="Nombre completo">
+                <input type="email" placeholder="Correo Electronico">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Tú mensaje"></textarea>
+            <input type="submit" value="Enviar mensaje" class="btn">
+        </form>
+        <div class="social-media">
+            <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+            <a href="#"><i class='bx bxl-github'></i></a>
+            <a href="#"><i class='bx bxl-linkedin'></i></a>
+        </div>
+
+    </section>
+
+    <!-- Footer section design -->
+    <section class="footer" id="footer">
+        <div class="footer__text">
+            <p>&copy; 2024 by Ivan Aponza | All Right Reserved❤️</p>
+        </div>
+
+        <div class="footer__iconTop">
+            <a id="btn" href="#home"><i class='bx bxs-chevrons-up'></i></a>
+        </div>
+    </section>
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- typed js -->
+    <script src="https://unpkg.com/typed.js@2.0.132/dist/typed.umd.js"></script>
+
+    <!-- custom js -->
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,70 @@
+{
+    "nav": {
+        "nav-home": "Inicio",
+        "nav-about": "Sobre mí",
+        "nav-services": "Servicios",
+        "nav-skills": "Habilidades",
+        "nav-project": "Proyectos",
+        "nav-contact": "Contacto"
+    },    
+   
+    "home": {
+        "home-hit": "Hola yo soy",
+        "home-rol": "y soy un",
+        "home-description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Non saepe sapiente similique a accusantium voluptatibus autem aliquam.",
+        "home-btn": "Descargar CV"
+    },
+    "about":{
+        "heading": "Acerca de <span>mí</span>",
+        "about-title": "Desarrollador Fullstack",
+        "about-description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas qui ratione, maxime saepe in aliquam",
+        "btn": "Leer más"
+    },
+    "services": {
+        "heading": "<span>Mis</span> Servicios",
+        "firt-service-title": "Desarrollador web",
+        "firt-service-description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas qui ratione, maxime saepe in aliquam",
+        "firt-btn": "Leer más",
+        "second-service-title": "Diseño Grafico",
+        "second-service-description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas qui ratione, maxime saepe in aliquam",
+        "second-btn": "Leer más",
+        "third-service-title": "Marketing Digital",
+        "third-service-description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas qui ratione, maxime saepe in aliquam",
+        "third-btn": "Leer más"
+    },
+    "skills": {
+        "heading": "Mis <span>Habilidades</span>"
+    },
+    "experience": {
+        "heading": "<span>Mis</span> Experiencias",
+        "firt-experience-title": "Desarrollador web",
+        "firt-experience-description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas qui ratione, maxime saepe in aliquam",
+        "firt-btn": "Leer más",
+        "second-experience-title": "Diseño Grafico",
+        "second-experience-description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas qui ratione, maxime saepe in aliquam",
+        "second-btn": "Leer más",
+        "third-experience-title": "Marketing Digital",
+        "third-experience-description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas qui ratione, maxime saepe in aliquam",
+        "third-btn": "Leer más"
+    },
+    
+    "project": {
+        "heading": "<span>Mis</span> proyectos",
+        "first-projects-title": "Sistema POS",
+        "first-projects-description": "Sistema de venta e Inventario, para organización y sistematización de tu negocios",
+        "second-projects-title": "Desarrollador web",
+        "second-projects-description": "Lorem ipsum dolor sit amet consectetur what tenburgr",
+        "third-projects-title": "Desarrollador web",
+        "third-projects-description": "Lorem ipsum dolor sit amet consectetur what tenburgr",
+        "room-projects-title": "Desarrollador web",
+        "room-projects-description": "Lorem ipsum dolor sit amet consectetur what tenburgr",
+        "fifth-projects-title": "Desarrollador web",
+        "fifth-projects-description": "Lorem ipsum dolor sit amet consectetur what tenburgr",
+        "sixth-projects-title": "Desarrollador web",
+        "sixth-projects-description": "Lorem ipsum dolor sit amet consectetur what tenburgr"
+    },
+    "contact":{
+        "heading": "contácta <span>Me!</span>"
+    }
+
+}
